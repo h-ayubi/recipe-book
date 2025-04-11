@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe Page</title>
+</head>
+<body>
+    <nav>
+        <h2>🍳 My Recipe Book</h2>
+     
+        <ul>
+         <li><a href="index.html">🏠 Home</a></li>
+         <li><a href="add-recipe.html">➕ Add Recipe</a></li>
+         <li><a href="recipe-list.html">📖 Recipe List</a></li>
+       </ul>
+       <hr>
+     </nav>
+
+     <header>
+        <h1>Add Your Delicious Recipe</h1>
+        <p>Fill out the form below to share your amazing dish!</p>
+      </header>
+      <br>
+      <section>
+      <h2>➕ Add a New Recipe</h2>
+      <form>
+        <label for="name">Recipe Name:</label>
+        <br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="ingredients">Ingredients:</label>
+        <br>
+        <textarea name="ingredients" id="ingredients" rows="5" cols="40" placeholder="List your ingredients here..." required></textarea>
+        <br><br>
+        <label for="instructions">Cooking Instructions:</label>
+        <br>
+        <textarea name="instructions" id="instructions" rows="6" cols="40" placeholder="Write the cooking steps here..." required></textarea>
+        <br><br>
+        <label for="image-url">Image URL:</label> 
+        <br>
+        <input type="text" id="image-url" name="image-url" required>
+        <br><br>
+        <label for="category">Recipe Category:</label> <br>
+        <select name="category" id="category" required>
+          <option value="classic-afghan-dishes">Classic Afghan Dishes</option>
+          <option value="quick-weekday-meals">Quick Weekday Meals</option>
+        </select> <br><br>
+        <button type="submit">Add Recipe</button>
+        
+
+      </form>
+    </section>
+    <footer>
+      <hr>
+       <p>&copy; 2025 My Recipe Book | Made with ❤️ in Afghanistan</p>
+     </footer>
+</body>
+</html>
